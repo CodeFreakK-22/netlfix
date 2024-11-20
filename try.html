@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Select</title>
+    <style>
+        /* General styles for select button and options */
+        select {
+            color: blue;
+            /* Text color for both button and dropdown options */
+            background-color: white;
+            /* Background color for both */
+            font-size: 16px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        /* Focused state of the select button */
+        select:focus {
+            color: red;
+            /* Change text color when the select is focused */
+            border-color: blue;
+        }
+
+        /* Hover state of the select button */
+        select:hover {
+            color: green;
+            /* Change text color when hovering over the select button */
+        }
+    </style>
+</head>
+
+<body>
+
+    <select>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+    </select>
+
+</body>
+
+</html>
